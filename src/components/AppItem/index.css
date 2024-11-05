@@ -1,0 +1,12 @@
+.list-ele {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 7px;
+  margin: 8px;
+  text-align: center;
+  width: 125px;
+}
+
+.app-item-img {
+  height: 55px;
+}

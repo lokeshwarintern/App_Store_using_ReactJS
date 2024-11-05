@@ -1,0 +1,14 @@
+.btn-ele {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 16px;
+  color: #7b8794;
+  margin: 7px;
+}
+
+.btn-active-class-name {
+  color: #2563eb;
+  border-bottom: 2px;
+  border-color: #2563eb;
+  border-style: solid;
+}

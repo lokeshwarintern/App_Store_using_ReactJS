@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-store-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-ele {
+  font-family: Bree Serif;
+}
+
+.input-search-card {
+  border: 1px solid #7b8794;
+  border-radius: 7px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-ele {
+  background-color: transparent;
+  padding: 7px;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  height: 20px;
+}
+
+.ul-tablist-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ul-app-item-card {
+  width: 350px;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 576px) {
+  .ul-app-item-card {
+    width: 600px;
+  }
+}
